@@ -27,3 +27,4 @@ class TextBoxPage(BasePage):
         permanent_address = self.element_is_present(self.locators.created_permanent_address).text.split(':')[1]
         return full_name, email, current_address, permanent_address
 
+

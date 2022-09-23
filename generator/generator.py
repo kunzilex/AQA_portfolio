@@ -1,6 +1,7 @@
 from data.data import Person
 from faker import Faker
 
+
 faker_ua = Faker('en_US')
 Faker.seed()
 
