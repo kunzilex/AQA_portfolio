@@ -16,3 +16,4 @@ class TestElements:
             assert current_address == output_cur_addr, "does not match"
             assert permanent_address == output_per_addr, "does not match"
 
+
