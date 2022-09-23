@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 
 
-
 class TextBoxPageLocators:
     # form fields
 
@@ -18,3 +17,10 @@ class TextBoxPageLocators:
     created_current_address = (By.CSS_SELECTOR, "#output #currentAddress")
     created_permanent_address = (By.CSS_SELECTOR, "#output #permanentAddress")
 
+
+class CheckBoxPageLocators:
+    EXPAND_ALL_BUTTONS = (By.CSS_SELECTOR, "button[title='Expand all']")
+    ITEM_LIST = (By.CSS_SELECTOR, "span[class='rct-title']")
+    CHECKED_ITEMS = (By.CSS_SELECTOR, "svg[lass='rct-icon rct-icon-check']")
+    TITLE_ITEM = ".//ancestor::span[@class='rct-text']"
+    OUTPUT_RESULT = (By.CSS_SELECTOR, "span[class='text-success']")
